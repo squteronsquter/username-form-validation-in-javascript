@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tailwind CSS Starter</title>
+  </head>
+  <body class="bg-blue-darkest">
+    <div class="container mx-auto">
+      <div class="min-h-screen flex flex-col items-center justify-center">
+        <h1 class="text-5xl text-grey-lightest font-sans mb-8">
+          Username Form
+        </h1>
+        <div class="feedback-positive"></div>
+        <div class="feedback-negative"></div>
+        <form
+          class="signup-form bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4"
+          action="#"
+        >
+          <input
+            class="shadow appearance-none border rounded w-full py-2 px-3 text-grey-darker leading-tight focus:outline-none focus:shadow-outline"
+            type="text"
+            id="username"
+            placeholder="username"
+          />
+          <input
+            class="bg-blue hover:bg-blue-dark text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline mt-4"
+            type="submit"
+            value="submit"
+          />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
