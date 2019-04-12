@@ -1,4 +1,4 @@
-# A Simple HTML Starter with Tailwind CSS Classes Enabled
+# A Simple HTML & Vanilla JavaScript Username Form Validation
 
 Clone this repo `git clone` to your local folder and while inside that folder run the following command in your terminal:
 
